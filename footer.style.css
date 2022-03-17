@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+body {
+    height: 100%;
+}
+
+footer {
+    background-color: #f6e4e6;
+    margin-top: 542px;
+    height: 15%;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.botao {
+    margin-left: 530px;
+    margin-top: 24px;
+    font-size: 16px;
+    padding: 8px;
+    border: none
+}
+
+.rodape {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.image {
+    width: 28px;
+    height: 28px;
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: -240px;
+}
+
+.imagelogo {
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+    margin-left: 12px;
+   
+}
+
+h4 {
+    margin-left: -503px;
+    margin-top: 18px;
+    font-size: 14px;
+}
+
+h6 {
+    font-size: 16px;
+}
