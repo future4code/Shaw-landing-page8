@@ -43,7 +43,7 @@ Acessar o repertório:
 $ cd Shaw-landing-page8
 
 ```
-
+****
 ## ✒️ Author
 
  Michael Soto  [https://github.com/nicksoto1]    </br>

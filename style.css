@@ -9,6 +9,11 @@ main {
   gap: 5rem;
 }
 
+h1{
+  display: flex;
+  justify-content: center;
+}
+
 .card {
   color: white;
   min-height: 18rem;
