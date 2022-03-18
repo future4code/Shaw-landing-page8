@@ -1,180 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-main {
-  width: 80vw;
-  margin: auto;
-  background-image: url(img/setas.png);
+header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  height: 17vh;
+  background-color: #c23c4b;
+}
+
+nav {
+  display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 5rem;
+  padding: 1em;
 }
 
-h1{
+.frase-size {
+  padding: 1em;
+  color: #f6e4e6;
+}
+
+.frase-size :hover {
+  color: black;
+  transition: 0.2s ease-in;
+}
+
+.imagem {
   display: flex;
-  justify-content: center;
+  width: 10rem;
 }
 
-.card {
-  color: white;
-  min-height: 18rem;
-  background-color: #ffffff;
-  border: 0.1em solid rgb(0, 0, 0);
-  flex-grow: auto;
-  flex-basis: 12rem;
-  box-shadow: 0px 1px #f3efee;
+@media screen and (max-device-width: 677px) {
+  nav {
+    color: #f6e4e6;
+    display: flex;
+
+    font-size: 0.5em;
+  }
 }
 
 .texto {
-  display: flex;
-  justify-content: space-around;
-}
-
-.borda {
-  background-color: #ffffff;
-  min-width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-#compra,
-#carrinho {
-  padding: 5px;
-  display: flex;
-  position: relative;
-  top: 0;
-  
-}
-
-#carrinho {
-  border-left: 1px ridge rgb(0, 0, 0);
-}
-
-#compra:hover {
-  background-color: rgb(206, 74, 74);
-  top: -4px;
-  box-shadow: 0 4px 4px #999;
-  transition: all 0.2s ease-in-out;
-  cursor: pointer;
-}
-
-#carrinho:hover {
-  background-color: rgb(206, 74, 74);
-  top: -4px;
-  box-shadow: 0 4px 4px #999;
-  transition: all 0.2s ease-in-out;
-  cursor: pointer;
-}
-
-.card p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: -170px;
   color: black;
+}
+.banner {
+  background-image: url(./img/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 80px;
+}
+.banner span {
+  margin-left: 10px;
+  font-weight: bold;
+}
+.banner h1 {
+  font-size: 6rem;
+  font-weight: bold;
+  line-height: 100px;
+}
+.imagebanner {
+  width: 148px;
+  height: 148px;
+  border: 7px solid #c23949;
+  border-radius: 70px;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+
+footer {
+  margin-left: 15em;
+  height: 17vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f6e4e6;
   font-size: 0.8em;
-  border: 0;
 }
 
-.linha {
-  border-left: 200px solid;
+.imgSocial {
+  height: 2.5em;
+  width: 2.5em;
 }
 
-.iconeCompra {
-  min-width: 9px;
+.botao {
+  padding: 0.625em;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
 }
 
-img {
-  width: 100%;
+@media screen and (max-device-width: 581px) {
+  .texto {
+    font-size: 0.7em;
+  }
 }
-=======
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.header{
-    display: flex;
-    background-color: #c23c4b ;
-    align-items: space-between;
-    justify-content: space-between;
-    padding-right: 12%;
-    height: 63px;
-    align-items: center;
-
-}
-
-.imagem{
-    height: 72px;
-    width: 130px;
-    padding-left: 40px;
-}
-
-.frase-size{
-    color: #f6e4e6;
-}
-
-.frase-size :hover{
-color: black;
-transition: 0.2s ease-in;
-}
-
-
-
- @media screen and (max-device-width : 414px) {
-
-    .header{
-        display: flex;
-        background-color: #c23c4b ;
-        align-items: space-between;
-        justify-content: space-between;
-        padding-right: 6.5%;
-        height: 32px;
-        align-items: center;
-    
-    }
-
-    .imagem{
-        height: 30px;
-        width: 50px;
-        padding-left: 2px;
-        margin-top: 3px;
-    }
-    
-    .frase-size{
-        color: #f6e4e6;
-        font-size: 10px;
-
-    }
-
-}
-
- @media screen and (max-device-width : 800px) {
-
-    .header{
-        display: flex;
-        background-color: #c23c4b ;
-        align-items: space-between;
-        justify-content: space-between;
-        padding-right: 6%;
-        height: 38px;
-        align-items: center;
-        flex-wrap: wrap;
-        width: 100vw;
-    
-    }
-
-    .imagem{
-        padding-top: 4px;
-        height:40px;
-        width: 70px;
-        padding-left: 2px;
-    }
-    
-    .frase-size{
-        color: #f6e4e6;
-        font-size: 13px;
-
-    }
-}
-
-
