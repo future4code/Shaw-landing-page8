@@ -11,7 +11,7 @@
 
 
 <p align="center">
-  <img src='' alt='print da imagem'> 
+  <img src='img/print.png' alt='print da imagem'> 
 </p>
 
 
@@ -30,7 +30,8 @@ O  Log4 é um modelo de website ficticio criado para o curso da Labenu
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [desse link]( ). 
+Você pode visualizar o layout do projeto através [log4-shaw.surge.sh
+](surge ). 
 
 ## 🚀 Como executar
 
