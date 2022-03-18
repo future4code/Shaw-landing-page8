@@ -36,15 +36,16 @@ Você pode visualizar o layout do projeto através [desse link]( ).
 
  Clonar o repositorio:
 ```bash
-$ git clone 
+$ git clone https://github.com/future4code/Shaw-landing-page8.git
 ```
 Acessar o repertório:
 ```bash
-$ cd 
+$ cd Shaw-landing-page8
+
 ```
 
 ## ✒️ Author
 
- Michael Soto    </br>
-Matheus do Santos    </br>
+ Michael Soto  [https://github.com/nicksoto1]    </br>
+Matheus do Santos [https://github.com/MatheusJesuino]   </br>
 Yasmin Silva 
