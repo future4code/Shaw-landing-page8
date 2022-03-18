@@ -1,0 +1,92 @@
+ * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+display: grid;
+grid-template-areas:
+"header header header"
+    "main main main"
+    "footer footer footer";
+    background-color: black;
+    color: white;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto 100% auto;
+    
+}
+header {
+    grid-area: header;
+    padding: 1.5rem;
+    background-color: #f6e4e6;
+    
+  }
+  
+  main{
+    grid-area: main;
+    
+  }
+ 
+  
+  footer {
+      height: 100px;
+    grid-area: footer;
+    padding: 1rem;
+    background-color: #f6e4e6;
+  }
+  .rodape{
+    max-width: 71.25em;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .imagelogo{
+      width:2.813em;
+      height: 2.813em;
+      border-radius: 25px;
+   margin-left: -90px;
+  }
+  .redessociais{
+      height: 2.5em;
+      width: 2.5em;
+    
+  }
+  .botao{
+      padding:.625em;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+  }
+  .texto{
+      margin-left: -170px;
+      color: black;
+  }    
+  .banner{
+      background-image: url(./img/banner.jpg);
+      background-position: center;
+      background-size: cover;
+      padding: 80px;
+  }
+  .banner span{
+      margin-left: 10px;
+      font-weight: bold;
+     
+  }
+  .banner h1{
+      font-size: 6rem;
+      font-weight: bold;
+      line-height: 100px;
+  }
+  .imagebanner{
+      width: 148px;
+      height: 148px;
+      border: 7px solid #c23949;
+      border-radius: 70px;
+      margin-top: 60px;
+      margin-left: 20px;
+
+  }
+  

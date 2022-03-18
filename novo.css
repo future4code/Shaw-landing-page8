@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    background-color: #c23c4b ;
+    align-items: flex-end;
+    justify-content:space-between;
+    padding-right: 5%;
+    height: 63px;
+    align-items: center;
+
+}
+
+
+
+.imagem{
+    height: 130px;
+    width: 200px;
+    margin-top: 60px;
+    
+}
+
+.frase-size{
+    color: #f6e4e6;
+    margin-top: 50px;
+    font-style: italic;
+    font-size: 20;
+    
+}
+
+.frase-size :hover{
+color: black;
+transition: 0.2s ease-in;
+}
+
+/* body{
+    background-image: url(../navegação/img/Log4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+} */
+
+
+body{
+    background-color: #c23c4b ;
+    
+
+}
+
+.icone{
+    height: 60px;
+    width: 90px;
+    display: grid;
+    justify-self: unset;
+}
+
+
+
+
