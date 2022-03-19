@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .flex-container {
   
 	width: 80vw;
@@ -59,4 +60,103 @@
 
 img {
   width: 100%;
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 17vh;
+  background-color: #c23c4b;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+}
+
+.frase-size {
+  padding: 1em;
+  color: #f6e4e6;
+}
+
+.frase-size :hover {
+  color: black;
+  transition: 0.2s ease-in;
+}
+
+.imagem {
+  display: flex;
+  width: 10rem;
+}
+
+@media screen and (max-device-width: 677px) {
+  nav {
+    color: #f6e4e6;
+    display: flex;
+
+    font-size: 0.5em;
+  }
+}
+
+.texto {
+  margin-left: -170px;
+  color: black;
+}
+.banner {
+  background-image: url(./img/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 80px;
+}
+.banner span {
+  margin-left: 10px;
+  font-weight: bold;
+}
+.banner h1 {
+  font-size: 6rem;
+  font-weight: bold;
+  line-height: 100px;
+}
+.imagebanner {
+  width: 148px;
+  height: 148px;
+  border: 7px solid #c23949;
+  border-radius: 70px;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+
+footer {
+  margin-left: 15em;
+  height: 17vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f6e4e6;
+  font-size: 0.8em;
+}
+
+.imgSocial {
+  height: 2.5em;
+  width: 2.5em;
+}
+
+.botao {
+  padding: 0.625em;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+@media screen and (max-device-width: 581px) {
+  .texto {
+    font-size: 0.7em;
+  }
+>>>>>>> master
 }
