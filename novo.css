@@ -1,63 +1,181 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.header{
+.box-header {
     display: flex;
-    background-color: #c23c4b ;
-    align-items: flex-end;
-    justify-content:space-between;
-    padding-right: 5%;
-    height: 63px;
+    justify-content: center;
     align-items: center;
-
+    grid-column: 3/4;
 }
 
-
-
-.imagem{
-    height: 130px;
-    width: 200px;
-    margin-top: 60px;
-    
+.formatar-box {
+    display: flex;
+    margin-right: 30px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    text-decoration-color: #c23c4b;
 }
 
-.frase-size{
-    color: #f6e4e6;
-    margin-top: 50px;
-    font-style: italic;
-    font-size: 20;
-    
+.formatar-box:hover {
+    color: black;
+    transition: 0.2s ease-in-out;
 }
 
-.frase-size :hover{
-color: black;
-transition: 0.2s ease-in;
+.container {
+    display: grid;
+    grid-template-rows: 15vh 85vh 10vh;
 }
 
-/* body{
-    background-image: url(../navegação/img/Log4.png);
+header {
+    display: grid;
+    grid-template-columns: 15vw 50vw 35vw;
+    background-color:#c23c4b;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 55vw 45vw;
+    background-image: url(./img1/main.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-} */
-
-
-body{
-    background-color: #c23c4b ;
-    
-
+    background-position: left;
 }
 
-.icone{
-    height: 60px;
-    width: 90px;
+.posicionamento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2/3;
+}
+
+.box-sobre-nos {
     display: grid;
-    justify-self: unset;
+    grid-template-rows: 33% 33% 33%;
+    padding: 30px;
+    width: 80%;
+    height: 80%;
+    background-color: #f6e4e6;
+    border-radius: 20px;
+    box-shadow: 0 0 2em black;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
+footer {
+    background-color: black;
+}
 
+.logo-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.logo {
+    width: 90px;
+    height: 80px;
+}
 
+.titulo {
+    color: white; 
+    font-style: italic;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.titulo:hover {
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+
+.oitenta {
+    margin-top: -20px;
+    width: 80px;
+    height: 80px;
+    margin-left: -30px;
+    margin-right: 5px;
+}
+
+.medalha {
+    margin-top: 30px;
+    margin-left: -25px;
+    margin-right: 20px;
+    width: 60px; 
+    height: 60px;
+}
+
+.check {
+    margin-top: 25px;
+    margin-left: -20px;
+    margin-right: 20px;
+    width: 60px; 
+    height: 60px;
+}
+
+.box-texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 10px;
+}
+
+footer {
+    background-color:#f6e4e6 ;
+    display: flex;
+    
+}
+
+.rodape{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .imagelogo{
+    width:2.813em;
+    height: 2.813em;
+    border-radius: 25px;
+    margin-left: -90px;
+  }
+  .redessociais{
+      height: 2.5em;
+      width: 2.5em;
+    
+  }
+  .botao{
+      padding:.625em;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      background-color: white;
+  }
+  .texto{
+      margin-left: -170px;
+      color: black;
+  }    
+
+  .banner span{
+      margin-left: 10px;
+      font-weight: bold;
+     
+  }
+  .banner h1{
+      font-size: 6rem;
+      font-weight: bold;
+      line-height: 100px;
+  }
+  
+  @media screen and (max-device-width: 677px) {
+    header {
+      color: #f6e4e6;
+      display: flex;
+      display: grid;
+      font-size: 0.5em;
+    }
+  }
