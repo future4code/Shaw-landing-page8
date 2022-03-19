@@ -30,8 +30,7 @@ O  Log4 é um modelo de website ficticio criado para o curso da Labenu
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [log4-shaw.surge.sh
-](surge ). 
+Você pode visualizar o layout do projeto através [log4-shaw.surge.sh](surge )
 
 ## 🚀 Como executar
 
