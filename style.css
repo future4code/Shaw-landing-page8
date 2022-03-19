@@ -1,66 +1,3 @@
-<<<<<<< HEAD
-.flex-container {
-  
-	width: 80vw;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  background-color: #f6e4e6;
-	gap: 5rem;
-}
-
-.card {
-  color: white;
-	width: 40%;
-  min-height: 18rem;
-  border: 0.1em solid rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);
-  flex-grow: auto;
-  flex-basis: 12em;
-  box-shadow: 0px 1px #f3efee;
-}
-
-.borda {
-	min-width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-#compra1{
-	padding: 5px;
-	display: flex;
-
-}
-
-#compra2{
-	padding: 5px;
-	display: flex;
-	border-left: 1px solid rgb(0, 0, 0);
-}
-
-
-.card p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: black;
-	font-size: 0.8em;
-	border: 0;
-		
-}
-
-.linha{
-	border-left: 200px solid;
-}
-
-.iconeCompra {
-  min-width: 9px;
-}
-
-img {
-  width: 100%;
-=======
 * {
   margin: 0;
   padding: 0;
@@ -158,5 +95,4 @@ footer {
   .texto {
     font-size: 0.7em;
   }
->>>>>>> master
 }
