@@ -1,3 +1,6 @@
+
+/* ANCHOR  Main - Corpo da página */
+
 main {
   width: 80vw;
   margin: auto;
@@ -85,7 +88,7 @@ img {
 }
 
 
-
+/* ANCHOR  Footer rodapé da página */
 footer {
   margin-top: 2em;
   height: 17vh;
