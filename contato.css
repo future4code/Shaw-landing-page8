@@ -1,31 +1,29 @@
-
-
-main{
-height: 80vh;
-
+main {
+  height: 90vh;
+  background-image: url(img/movelPlanejado.jpg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  display: flex;
+  justify-content: flex-end;
 }
 
+form {
+  border-radius: 5px;
+  background-color: #8a8a83;
 
-
-form{
-	border-radius: 5px;
-  background-color: #eeb7b7;
   padding: 20px;
-	margin: auto;
-width: 30%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-
+  width: 30%;
+  display: flex;
+  flex-direction: column;
 }
 
 label {
   padding: 12px 12px 12px 0;
 }
 
-input[type=text],
-input[type=email],
-input[type=tel],
+input[type="text"],
+input[type="email"],
+input[type="tel"],
 textarea {
   width: 100%;
   padding: 12px;
@@ -34,16 +32,25 @@ textarea {
   resize: vertical;
 }
 
-input[type=submit] {
-  background-color: #04AA6D;
+input[type="submit"] {
+  background-color: #c23c4b;
   color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   float: right;
+  margin-top: 1em;
 }
 
-input[type=submit]:hover {
-  background-color: #45a049;
+input[type="submit"]:hover {
+  background-color: #c92d2d;
 }
+
+@media screen and (max-device-width: 581px) {
+  .container-texto {
+    font-size: 0.5em;
+  }
+}
+
+
