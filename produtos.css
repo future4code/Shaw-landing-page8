@@ -1,27 +1,24 @@
-
 /* ANCHOR  Main - Corpo da página */
 
-main {
-  width: 80vw;
+.containerCard {
+  width: 100vw;
   margin: auto;
-  background-image: url(img/setas.png);
+  background:  url("img/delivery.jpg") repeat;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 5rem;
+  gap: 7rem;
 }
 
-h1 {
-  display: flex;
-  justify-content: center;
+.produtosImg {
+  width: 100vw;
 }
 
 .card {
-  color: white;
-  min-height: 15rem;
-  background-color: #ffffff;
-  border: 0.1em solid rgb(0, 0, 0);
+  min-height: 12rem;
+  background-color: #f6e4e6;
+  border: 0.1em solid rgb(0, 0, 0,5);
   flex-grow: auto;
   flex-basis: 12rem;
   box-shadow: 0px 1px #f3efee;
@@ -29,7 +26,9 @@ h1 {
 
 .texto {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  position: relative;
+  left: 5em;
 }
 
 .borda {
@@ -87,10 +86,8 @@ img {
   width: 100%;
 }
 
-
 /* ANCHOR  Footer rodapé da página */
 footer {
-  margin-top: 2em;
   height: 17vh;
   display: flex;
   align-items: center;
@@ -111,10 +108,11 @@ footer {
   font-weight: bold;
 }
 
-
 @media screen and (max-device-width: 581px) {
-    .texto {
-      font-size: 0.7em;
-    }
+  .texto {
+    font-size: 0.7em;
   }
-  
+}
+
+
+
