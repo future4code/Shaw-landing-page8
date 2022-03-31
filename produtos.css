@@ -1,0 +1,118 @@
+/* ANCHOR  Main - Corpo da página */
+
+.containerCard {
+  width: 100vw;
+  margin: auto;
+  background:  url("img/delivery.jpg") repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 7rem;
+}
+
+.produtosImg {
+  width: 100vw;
+}
+
+.card {
+  min-height: 12rem;
+  background-color: #f6e4e6;
+  border: 0.1em solid rgb(0, 0, 0,5);
+  flex-grow: auto;
+  flex-basis: 12rem;
+  box-shadow: 0px 1px #f3efee;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 5em;
+}
+
+.borda {
+  background-color: #ffffff;
+  min-width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+#compra,
+#carrinho {
+  padding: 5px;
+  display: flex;
+  position: relative;
+  top: 0;
+}
+
+#carrinho {
+  border-left: 1px ridge rgb(0, 0, 0);
+}
+
+#compra:hover {
+  background-color: rgb(206, 74, 74);
+  top: -4px;
+  box-shadow: 0 4px 4px #999;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+#carrinho:hover {
+  background-color: rgb(206, 74, 74);
+  top: -4px;
+  box-shadow: 0 4px 4px #999;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.card p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 0.8em;
+  border: 0;
+}
+
+.linha {
+  border-left: 200px solid;
+}
+
+.iconeCompra {
+  min-width: 9px;
+}
+
+img {
+  width: 100%;
+}
+
+/* ANCHOR  Footer rodapé da página */
+footer {
+  height: 17vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f6e4e6;
+  font-size: 0.8em;
+}
+
+.imgSocial {
+  height: 2.5em;
+  width: 2.5em;
+}
+
+.botao {
+  padding: 0.625em;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+@media screen and (max-device-width: 581px) {
+  .texto {
+    font-size: 0.7em;
+  }
+}
+
+
+
